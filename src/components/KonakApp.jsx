@@ -1,6 +1,6 @@
 import React from "react";
 import KonakList from "./KonakList";
-import {getData} from "./data";
+import {getData} from "../utils/data";
 
 export default function KonakApp(){
     const kontaks = getData();
