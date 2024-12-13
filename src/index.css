@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: Inter; 
+  */system-ui, -apple-system, sans-serif;/*
 }
 
 /* Layout */
@@ -39,7 +40,6 @@ body {
   max-width: 42rem;
   margin: 0 auto;
   padding: 1rem;
-  border: 10px solid rgb(45, 33, 214);
 }
 
 /* Contact Item */
@@ -52,13 +52,11 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  border: 3px solid rgb(246, 250, 12);
 }
 
 /* Contact Image */
 .contact-item__image {
   flex-shrink: 0;
-  border: 2px solid salmon;
 }
 
 .contact-item__image img {
@@ -78,14 +76,12 @@ body {
   font-weight: 600;
   color: #1f2937;
   text-transform: capitalize;
-  border: 2px solid salmon;
-
 }
 
 .contact-item__username{
-  color: #c57e7e;
-  border: 2px solid salmon;
+  color: #9a9da0;
   font-size: 0.8rem;
   font-style: italic;
+  text-align: left;
 
 }
